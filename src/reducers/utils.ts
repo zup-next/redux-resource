@@ -9,7 +9,7 @@ export const createReducer = <State>(
   initialState: State,
   handlers: Handlers<State>,
 ) => (state = initialState, action: AnyAction) =>
-    handlers.hasOwnProperty(action.type) ? handlers[action.type](state, action) : state
+    handlers[action.type] ? handlers[action.type](state, action) : state
 
 export const createResourceInitialState = (): Resource<any> => ({
   data: null,

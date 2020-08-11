@@ -4,8 +4,8 @@ import { all, takeEvery, takeLatest } from 'redux-saga/effects'
 describe('Saga utilities', () => {
   it('should create effects with default', () => {
     const sagas = {
-      'SAGA_1': jest.fn(),
-      'SAGA_2': jest.fn(),
+      SAGA_1: jest.fn(),
+      SAGA_2: jest.fn(),
     }
 
     const rootSaga = createEffects(sagas)
@@ -18,8 +18,8 @@ describe('Saga utilities', () => {
 
   it('should create effects with takeLatest', () => {
     const sagas = {
-      'SAGA_1': jest.fn(),
-      'SAGA_2': jest.fn(),
+      SAGA_1: jest.fn(),
+      SAGA_2: jest.fn(),
     }
 
     const rootSaga = createEffects(sagas, takeLatest)
@@ -44,7 +44,7 @@ describe('Saga utilities', () => {
       order: {
         'ORDER/CREATE': jest.fn(),
       },
-      'LOAD': jest.fn(),
+      LOAD: jest.fn(),
     }
 
     const typeToSagaMap = getTypeToSagaMap(sagas)
@@ -54,7 +54,7 @@ describe('Saga utilities', () => {
       'PLANS/CREATE': sagas.catalog.plans['PLANS/CREATE'],
       'ADDONS/LOAD': sagas.catalog.addons['ADDONS/LOAD'],
       'ORDER/CREATE': sagas.order['ORDER/CREATE'],
-      'LOAD': sagas['LOAD'],
+      LOAD: sagas['LOAD'],
     })
   })
 

@@ -1,6 +1,6 @@
 {
   "name": "@zup-next/redux-resource",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Utilities for creating CRUD resources for redux",
   "main": "lib/redux-resource.js",
   "types": "lib",
@@ -27,30 +27,30 @@
     "lib"
   ],
   "dependencies": {
-    "lodash": "^4.17.11",
-    "redux": "^4.0.1",
-    "redux-saga": "^1.0.2"
+    "lodash": "^4.17.15",
+    "redux": "^4.0.4",
+    "redux-saga": "^1.0.5"
   },
   "devDependencies": {
-    "@types/jest": "^24.0.13",
-    "@types/lodash": "^4.14.130",
-    "@typescript-eslint/eslint-plugin": "^1.9.0",
-    "@typescript-eslint/parser": "^1.9.0",
-    "eslint": "^5.16.0",
-    "eslint-config-standard": "^12.0.0",
-    "eslint-plugin-import": "^2.17.2",
-    "eslint-plugin-node": "^9.0.1",
-    "eslint-plugin-promise": "^4.1.1",
+    "@types/jest": "^24.0.17",
+    "@types/lodash": "^4.14.136",
+    "@typescript-eslint/eslint-plugin": "^1.13.0",
+    "@typescript-eslint/parser": "^1.13.0",
+    "eslint": "^6.1.0",
+    "eslint-config-standard": "^13.0.1",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-node": "^9.1.0",
+    "eslint-plugin-promise": "^4.2.1",
     "eslint-plugin-standard": "^4.0.0",
     "jest": "^24.8.0",
-    "nodemon": "^1.19.0",
-    "rollup": "^1.12.3",
-    "rollup-plugin-commonjs": "^10.0.0",
+    "nodemon": "^1.19.1",
+    "rollup": "^1.19.4",
+    "rollup-plugin-commonjs": "^10.0.2",
     "rollup-plugin-multi-entry": "^2.1.0",
-    "rollup-plugin-node-resolve": "^5.0.0",
-    "rollup-plugin-terser": "^4.0.4",
-    "rollup-plugin-typescript2": "^0.21.1",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-terser": "^5.1.1",
+    "rollup-plugin-typescript2": "^0.22.1",
     "ts-jest": "^24.0.2",
-    "typescript": "^3.4.5"
+    "typescript": "^3.5.3"
   }
 }
